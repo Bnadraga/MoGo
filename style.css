@@ -12,11 +12,6 @@ body{
     width: 1920px;
     height: 1618px; 
 }
-ul,
-a{
-    list-style: none;
-    text-decoration: none;
-}
 /* section-amazing */
 .section-amazing{
     margin-top: 81px;
