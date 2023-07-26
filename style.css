@@ -9,8 +9,13 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--body-color);
-    width: 1920px;
-    height: 1618px; 
+}
+.container{
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    border: 2px solid red;
 }
 /* section-amazing */
 .section-amazing{
