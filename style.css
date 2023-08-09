@@ -24,6 +24,11 @@ body{
 .section-amazing{
     margin-top: 81px;
 }
+.span-wrap{
+    display: flex;
+    justify-content: center;
+}
+
 .line{
     width: 60px;
     height: 4px;
