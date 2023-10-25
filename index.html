@@ -8,12 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <a href="#" class="header-title">MoGo</a>
-        <nav class="header-nav">
+    <header class="header container">
+        <div class="header-container">
+          <a href="#" class="header-title">MoGo</a>
+          <nav class="header-nav">
             <ul class="header-list">
                 <li><a href="#" class="header-item">ABOUT</a></li>
                 <li><a href="#" class="header-item">SERVICE</a></li>
@@ -22,99 +25,105 @@
                 <li><a href="#" class="header-item">CONTACT</a></li>
             </ul>
         </nav>
+        </div>
     </header>
-    <main>
+    <main class="container">
         <section class="section-amazing">
-            <span class="title">We work withs</span>
+            <div class="span-wrap">
+                <span class="title">We work withs</span>
+            </div>
             <h2 class="text">AMAZING SERVICES</h2>
             <div class="line"></div>
-            <ul>
-                <li>
-                    <div>
+            <ul class="list-wrap">
+                <li class="hero-item">
+                    <div class="img-wrap">
                         <img src="img/1.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at architecto ex similique aliquam quae minima, voluptas quisquam, qui quibusdam dolorem. Voluptatum aliquam quasi quod non hic! Ipsa, eos harum?</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     </div>
                 </li>
-                <li>
-                    <div>
+                <li class="hero-item">
+                    <div class="img-wrap">
                         <img src="img/2.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at architecto ex similique aliquam quae minima,
-                            voluptas quisquam, qui quibusdam dolorem. Voluptatum aliquam quasi quod non hic! Ipsa, eos harum?</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
                     </div>
                 </li>
-                <li>
-                    <div>
+                <li class="hero-item">
+                    <div class="img-wrap">
                         <img src="img/3.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at architecto ex similique aliquam quae minima,
-                            voluptas quisquam, qui quibusdam dolorem. Voluptatum aliquam quasi quod non hic! Ipsa, eos harum?</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                 </li>
-                <li>
-                    <div>
+                <li class="hero-item">
+                    <div class="img-wrap">
                         <img src="img/4.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at architecto ex similique aliquam quae minima,
-                            voluptas quisquam, qui quibusdam dolorem. Voluptatum aliquam quasi quod non hic! Ipsa, eos harum?</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                 </li>
-                <li>
-                    <div>
+                <li class="hero-item">
+                    <div class="img-wrap">
                         <img src="img/5.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at architecto ex similique aliquam quae minima,
-                            voluptas quisquam, qui quibusdam dolorem. Voluptatum aliquam quasi quod non hic! Ipsa, eos harum?</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                 </li>
-                <li>
-                    <div>
+                <li class="hero-item">
+                    <div class="img-wrap">
                         <img src="img/6.png" alt="">
                     </div>
                     <div>
                         <h3 class="photography">photography</h3>
-                        <p class="lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet at architecto ex similique aliquam quae minima,
-                            voluptas quisquam, qui quibusdam dolorem. Voluptatum aliquam quasi quod non hic! Ipsa, eos harum?</p>
+                        <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
                     </div>
                 </li>
             </ul>
         </section>
         <section class="section-meet">
-            <span class="title">Who we are</span>
-            <h2 class="text">Meet our team</h2>
-            <div class="line"></div>
+            <div class="span-wrap">
+                <span class="title">Who we are</span>
+            </div>
+            <h2 class="text-meet">Meet our team</h2>
+            <div class="line-meet"></div>
             <p class="section-meet-lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque qui facilis veniam et exercitationem. Voluptate, cum obcaecati est ullam soluta eos magni minus neque explicabo natus sint non! Minus, architecto.</p>
-            <ul>
-                <li>
+            <ul class="list-meet">
+                <li class="hero-man">
                     <img src="img/first-man1.png" alt="lol" class="img">
-                    <h4 class="man-name">Matthew Dix</h4>
-                    <span class="man-work">Graphic Design</span>
+                    <div class="man-wrap">
+                        <h4 class="man-name">Matthew Dix</h4>
+                        <p class="man-work">Graphic Design</p>
+                    </div>
                 </li>
-                <li>
+                <li class="hero-man">
                     <img src="img/first-man2.png" alt="lol" class="img">
-                    <h4 class="man-name">Christopher Campbell</h4>
-                    <span class="man-work">Branding/UX design</span>
+                    <div class="man-wrap">
+                        <h4 class="man-name">Christopher Campbell</h4>
+                        <p class="man-work">Branding/UX design</p>
+                    </div>
                 </li>
-                <li>
+                <li class="hero-man">
                     <img src="img/first-man3.png" alt="lol" class="img">
-                    <h4 class="man-name">Michael Fertig</h4>
-                    <span class="man-work">Developer</span>
+                    <div class="man-wrap">
+                        <h4 class="man-name">Michael Fertig</h4>
+                        <p class="man-work">Developer</p>
+                    </div>
                 </li>
             </ul>
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
         <p class="footer-p">© 2016 MoGo free PSD template by <a class="laaqiq" href="#">Laaqiq</a></p>
         <form>
             <label>
